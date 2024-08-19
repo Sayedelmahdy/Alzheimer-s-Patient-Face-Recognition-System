@@ -76,18 +76,15 @@ AlzheimerFaceRecognition/
     git clone https://github.com/yourusername/AlzheimerFaceRecognition.git
     cd AlzheimerFaceRecognition
     ```
-
-2. **Install Dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Install dlib**:
+2. **Install dlib**:
     Use the precompiled `.whl` file included in the project for Windows:
     ```bash
     python -m pip install dlib-19.24.1-cp311-cp311-win_amd64.whl
     ```
-
+3. **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
 4. **Create Directories**:
     Make sure the required directories for storing encodings are created:
     ```bash
